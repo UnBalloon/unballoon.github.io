@@ -18,6 +18,7 @@ defaultContentLanguage = "pt"
   home = ["HTML", "RSS", "PRINT", "SEARCH"]
   section = ["HTML", "RSS", "PRINT"]
   page = ["HTML", "RSS", "PRINT"]
+  chapters = ["HTML", "RSS", "PRINT"]
 
 [params]
   uglyURLs = false # see uglyURLs setting above
