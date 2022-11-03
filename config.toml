@@ -1,0 +1,70 @@
+baseURL = 'https://unballoon.github.io'
+languageCode = 'pt-br'
+title = 'UnBalloon'
+theme = 'relearn'
+
+canonifyURLs = false
+relativeURLs = false
+uglyURLs = false
+
+
+defaultContentLanguage = "pt"
+
+[outputs]
+  # add JSON to the home to support lunr search; This is a mandatory setting
+  # for the search functionality
+  # add PRINT to home, section and page to activate the feature to print whole
+  # chapters
+  home = ["HTML", "RSS", "PRINT", "SEARCH"]
+  section = ["HTML", "RSS", "PRINT"]
+  page = ["HTML", "RSS", "PRINT"]
+
+[params]
+  uglyURLs = false # see uglyURLs setting above
+  editURL = "https://github.com/McShelby/hugo-theme-relearn/edit/main/exampleSite/content/"
+  description = "Repositorio do UnBalloon"
+  author = "Bruno Vargas"
+  showVisitedLinks = true
+  collapsibleMenu = true
+  disableBreadcrumb = false
+  disableNextPrev = false
+  disableLandingPageButton = false
+  titleSeparator = "::"
+  themeVariant = [ "relearn-dark", "relearn-light", "learn", "neon", "blue", "green", "red" ]
+  disableSeoHiddenPages = true
+  # this is for the stylesheet generator to allow for interactivity in Mermaid
+  # graphs; you usually will not need it and you should remove this for
+  # security reasons
+  mermaidInitialize = "{ \"securityLevel\": \"loose\" }"
+  additionalContentLanguage = [ "pt" ]
+
+  # disableLanguages = ['en']
+
+[Languages]
+  [Languages.pt]
+    title = "UnBalloon"
+    weight = 1
+    languageName = "Portuguese"
+    landingPageName = "<i class='fas fa-home'></i> Início"
+
+  [[Languages.pt.menu.shortcuts]]
+    name = "<i class='fab fa-fw fa-github'></i> Repositório GitHub"
+    identifier = "ds"
+    url = "https://github.com/McShelby/hugo-theme-relearn"
+    weight = 10
+
+  [[Languages.pt.menu.shortcuts]]
+    name = "<i class='fas fa-fw fa-bookmark'></i> Documentação do Hugo"
+    identifier = "hugodoc"
+    url = "https://gohugo.io/"
+    weight = 20
+
+  [[Languages.pt.menu.shortcuts]]
+    name = "<i class='fas fa-fw fa-bullhorn'></i> Créditos"
+    url = "more/credits/"
+    weight = 30
+
+  [[Languages.pt.menu.shortcuts]]
+    name = "<i class='fas fa-fw fa-tags'></i> Tags"
+    url = "tags/"
+    weight = 40
