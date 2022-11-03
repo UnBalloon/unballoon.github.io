@@ -4,4 +4,4 @@ title = "Materiais"
 weight = 1
 +++
 
-# Conteúdos de Programação Competitiva
+## Conteúdos de Programação Competitiva
