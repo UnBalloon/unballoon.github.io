@@ -53,6 +53,11 @@ defaultContentLanguage = "pt"
     identifier = "ds"
     url = "https://github.com/UnBalloon/unballoon.github.io"
     weight = 10
+  
+  [[Languages.pt.menu.shortcuts]]
+  name = "<i class='fa fa-code'></i> CodeForces"
+  url = "https://codeforces.com/group/nituVTsHQX"
+  weight = 11
 
   [[Languages.pt.menu.shortcuts]]
     name = "<i class='fas fa-fw fa-bookmark'></i> Documentação do Hugo"
