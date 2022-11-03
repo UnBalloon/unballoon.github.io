@@ -21,7 +21,7 @@ defaultContentLanguage = "pt"
 
 [params]
   uglyURLs = false # see uglyURLs setting above
-  editURL = "https://github.com/McShelby/hugo-theme-relearn/edit/main/exampleSite/content/"
+  editURL = "https://github.com/UnBalloon/unballoon.github.io/edit/main/content/"
   description = "Repositorio do UnBalloon"
   author = "Bruno Vargas"
   showVisitedLinks = true
@@ -50,7 +50,7 @@ defaultContentLanguage = "pt"
   [[Languages.pt.menu.shortcuts]]
     name = "<i class='fab fa-fw fa-github'></i> Repositório GitHub"
     identifier = "ds"
-    url = "https://github.com/McShelby/hugo-theme-relearn"
+    url = "https://github.com/UnBalloon/unballoon.github.io"
     weight = 10
 
   [[Languages.pt.menu.shortcuts]]
