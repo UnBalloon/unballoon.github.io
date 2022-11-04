@@ -1,7 +1,7 @@
 +++
 archetype = "chapter"
 title = "Vector"
-weight = 3
+weight = 4
 tags = ["iniciante"]
 +++
 

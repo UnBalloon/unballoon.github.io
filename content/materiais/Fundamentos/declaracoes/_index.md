@@ -1,8 +1,6 @@
 +++
-archetype = "chapter"
 title = "Declarações"
-weight = 2
-tags = ["iniciante"]
+weight = 3
 +++
 
 ## Subpáginas

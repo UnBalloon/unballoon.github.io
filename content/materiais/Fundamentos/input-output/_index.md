@@ -2,7 +2,7 @@
 archetype = "chapter"
 title = "Entrada/Saída"
 tags = ["iniciante"]
-weight = 1
+weight = 2
 +++
 
 ## Entrada

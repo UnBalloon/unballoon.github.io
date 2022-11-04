@@ -1,7 +1,7 @@
 +++
 archetype = "chapter"
 title = "Pairs"
-weight = 2
+weight = 5
 tags = ["iniciante"]
 +++
 
