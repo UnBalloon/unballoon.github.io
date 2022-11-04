@@ -59,8 +59,8 @@ int main(){
 
 ```
 
-{{% notice info %}}
-    O "endl" é usado para fazer quebra de linha, porém, pode ser mais lento que o "\n".
+{{% notice style="info" %}}
+O "endl" é usado para fazer quebra de linha, porém, pode ser mais lento que o "\n".
 {{% /notice %}}
 
 ### Casas Decimais
