@@ -60,12 +60,6 @@ defaultContentLanguage = "pt"
   weight = 11
 
   [[Languages.pt.menu.shortcuts]]
-    name = "<i class='fas fa-fw fa-bookmark'></i> Documentação do Hugo"
-    identifier = "hugodoc"
-    url = "https://gohugo.io/"
-    weight = 20
-
-  [[Languages.pt.menu.shortcuts]]
     name = "<i class='fas fa-fw fa-bullhorn'></i> Créditos"
     url = "more/credits/"
     weight = 30
