@@ -30,7 +30,8 @@ Printando o famoso “Hello World”
 Casas Decimais Para printar as casas decimais, precisamos usar o “fixed” que é uma função do C++ usada para formatar a saída, juntamente com o “setprecision”, que diz quantas casas será printada.
 #include \u003cbits/stdc++.h\u003e using namespace std; int main(){ double pi = 3.141592653; cout\u003c\u003cfixed; cout\u003c\u003csetprecision(4); cout\u003c\u003cpi\u003c\u003cendl; // 3.1415 return 0; } Fast Cin Informação O printf e o scanf do C são mais rápidos do que o cin e o cout do C++.
 Isso ocorre porque o C++ usa a sincronização do output, ou seja, enquanto ele está lendo o input, o programa pode responder ao mesmo tempo.
-A resolução para isso, é desabilitar a sincronização no C++:
+A resolução para que o cin e o cout fique mais rápido (próximo à velocidade do scanf e do printf), é desabilitar a sincronização no C++.
+Segue o exemplo:
 ios_base::sync_with_stdio(false); cin.tie(NULL); Exemplo #include \u003cbits/stdc++.h\u003e using namespace std; int main(){ ios_base::sync_with_stdio(false); cin.tie(NULL); return 0; } `,description:"",tags:["iniciante"],title:"Entrada/Saída",uri:"/materiais/fundamentos/input-output/"},{content:"Subpáginas Strings Vector Pairs Iterators ",description:"",tags:null,title:"Declarações",uri:"/materiais/fundamentos/declaracoes/"},{content:`No C++ representa uma sequência de caracteres
 Podemos declarar uma string como:
 string nomevar; string nomevar = constante; string nomevar = char ∗ variavel; string nomevar(char ∗ variavel); string nomevar(tamanho, constante char); Concatenação Podemos usar o operador “+” para concatenar duas strings
