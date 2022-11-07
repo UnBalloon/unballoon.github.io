@@ -83,3 +83,34 @@ int main(){
     return 0;
 }
 ```
+
+## Fast Cin
+
+{{% notice style="info" %}}
+O **printf** e o **scanf** do C são mais rápidos do que o **cin** e o **cout** do C++.
+{{% /notice %}}
+
+Isso ocorre porque o C++ usa a sincronização do output, ou seja, enquanto ele está lendo o input, o programa pode responder ao mesmo tempo.
+
+A resolução para isso, é desabilitar a sincronização no C++:
+
+```cpp
+ios_base::sync_with_stdio(false);
+cin.tie(NULL);
+```
+
+## Exemplo
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(){
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
+    return 0;
+}
+```
+
+
