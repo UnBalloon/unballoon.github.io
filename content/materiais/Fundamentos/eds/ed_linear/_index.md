@@ -1,5 +1,5 @@
 +++
-title = "Estrutura de Dados Linear"
+title = "Linear"
 tags = ["iniciante"]
 weight = 1
 +++
