@@ -1,5 +1,5 @@
 +++
 title = "Estrutura de Dados"
 tags = ["iniciante"]
-weight = 2
+weight = 3
 +++
