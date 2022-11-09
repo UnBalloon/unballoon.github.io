@@ -1,6 +1,7 @@
 +++
 title = "Materiais"
 weight = 1
+alwaysopen = true
 +++
 
 ## Conteúdos de Programação Competitiva

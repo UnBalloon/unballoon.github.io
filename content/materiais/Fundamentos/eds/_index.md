@@ -1,6 +1,7 @@
 +++
 title = "Estrutura de Dados"
 tags = ["iniciante"]
+alwaysopen = false
 weight = 4
 +++
 
