@@ -1,6 +1,6 @@
 +++
 title = "Declarações"
-weight = 2
+weight = 3
 +++
 
 ## Subpáginas

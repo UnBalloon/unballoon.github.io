@@ -66,7 +66,7 @@ Complexidade: O(1)
 ## Ordenar
 
 {{% notice style="secondary" icon="stopwatch" title="Complexidade"%}}
-_O(log(N))_
+_O(N*log(N))_
 {{% /notice %}}
 
 ```cpp

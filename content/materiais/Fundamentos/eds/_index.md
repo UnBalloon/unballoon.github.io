@@ -1,5 +1,9 @@
 +++
 title = "Estrutura de Dados"
 tags = ["iniciante"]
-weight = 3
+weight = 4
 +++
+
+## Subpáginas
+
+{{% children showhidden="true" %}}

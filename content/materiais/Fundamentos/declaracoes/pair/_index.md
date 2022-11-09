@@ -5,8 +5,10 @@ weight = 5
 tags = ["iniciante"]
 +++
 
-- Um "pair" é um contêiner que consiste de dois tipos de dados ou objetos.
 
+O pair é muito importante quando precisamos guardar duas informações juntas.
+
+- Um "pair" é um contêiner que consiste de dois tipos de dados ou objetos.
 
 - Declaramos um pair como:
 
