@@ -7,7 +7,7 @@ weight = 7
 
 A **pilha** é uma estrutura que, como o nome sugere, permite inserção e remoção apenas do "topo". Isto significa que, ao remover um elemento da pilha, o elemento a ser removido é o último que foi inserido. Também é conhecido como ***LIFO (last-in first-out)***.
 
-![Pilha](../images/pilha.png)
+![Pilha](/images/pilha.png)
 
 ## Métodos:
 

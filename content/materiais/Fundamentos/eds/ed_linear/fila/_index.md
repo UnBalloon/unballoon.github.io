@@ -7,7 +7,7 @@ weight = 8
 
 A **fila** segue o padrão de ***FIFO (first-in first-out)***, ao contrário da pilha, o primeiro elemento inserido será o primeiro a ser removido. Ela é muito útil para problemas que precisamos manter os elementos na ordem em que lhes foram dados.
 
-![Fila](../images/fila.png)
+![Fila](/images/fila.png)
 
 ## Métodos
 
