@@ -70,7 +70,7 @@ int main() {
 }
 ```
 
-Outro método extremamente útil é o lower_bound (e o upper_bound). O lower_bound recebe um inteiro x como argumento e retorna o menor inteiro maior que x. Caso não exista, ele retorna um iterator para o fim do set (set.end()).
+Outro método extremamente útil é o lower_bound (e o upper_bound). O lower_bound recebe um inteiro x como argumento e retorna o menor inteiro maior ou igual a x. Caso não exista, ele retorna um iterator para o fim do set (set.end()).
 
 ## Exemplo 2
 
