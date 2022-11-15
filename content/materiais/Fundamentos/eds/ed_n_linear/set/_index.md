@@ -13,6 +13,19 @@ A vantagem do set em relação ao vector é que, caso queira inserir um elemento
 
 Além da vantagem de eficiência, essas operações com set são feitas com alguns simples métodos!
 
+## Métodos
+
+- ```insert(element)``` - Insere um elemento no Set
+- ```erase()``` - Remove uma key ou um iterator
+- ```find(element)``` - Retorna um iterator da posição do element
+- ```count``` - Retorna a quantidade de elementos de uma chave específica
+- ```size``` - Retorna o tamanho do set
+- ```clear``` - Limpa todo o conteúdo do set
+- ```begin``` - Retorna um iterator para o início do set
+- ```end``` - Retorna um iterator para o final do set
+- ```lower_bound(element)``` - Retorna um iterator para o primeiro valor >= element
+- ```upper_bound(element)``` - Retorna um iterator para o primeiro valor > element
+
 ## Exemplo 1
 
 ```cpp
@@ -57,7 +70,7 @@ int main() {
 }
 ```
 
-Outro método extremamente útil é o lower_bound (e o upper_bound). O lower_bound recebe um inteiro x como argumento e retorna o menor inteiro maior que x. Caso não exista, ele retorna um iterator para o fim do set (set.end()).
+Outro método extremamente útil é o lower_bound (e o upper_bound). O lower_bound recebe um inteiro x como argumento e retorna o menor inteiro maior ou igual a x. Caso não exista, ele retorna um iterator para o fim do set (set.end()).
 
 ## Exemplo 2
 

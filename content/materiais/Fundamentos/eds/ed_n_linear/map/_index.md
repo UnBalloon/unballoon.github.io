@@ -13,6 +13,17 @@ Deve-se ter cuidado com o uso de map pois ele é implementado em c++ como um set
 Existe também o **unordered_map**, que é uma estrutura que usa hash. No pior caso é linear, mas em média tem complexidade constante. O seu funcionamento é similar ao do map, com a diferença de que seus elementos não estão ordenados.
 {{% /notice %}}
 
+## Métodos
+
+- ```insert({key, element})``` - Insere uma chave e um valor no map
+- ```erase()``` - Remove uma key ou um iterator
+- ```find(element)``` - Retorna um iterator da posição do element
+- ```count``` - Retorna a quantidade de elementos de uma chave específica
+- ```size``` - Retorna o tamanho do map
+- ```clear``` - Limpa todo o conteúdo do Map
+- ```begin``` - Retorna um iterator para o início do map
+- ```end``` - Retorna um iterator para o final do map
+
 ## Inicialização
 
 ```cpp
@@ -62,6 +73,26 @@ Saída
 4 6
 ```
 
+## Apagando elemento
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(){
+    // iterando por métodos iterator
+    map<int, int> m = {{2, 3}, {4, 6}}
+    
+    m.erase(m.find(2));
+    m.erase(4);
+}
+```
+
+{{% notice style="info" %}}
+Da primeira maneira, ele apaga em tempo constante, pois está passando um iterator.
+Da segunda maneira, ele apaga em log(N), pois ele faz uma busca no elemento.
+{{% /notice %}}
+
 ## Verificar um elemento
 
 ```cpp
@@ -85,4 +116,3 @@ Saída
 ```
 Elemento existe
 ```
-
