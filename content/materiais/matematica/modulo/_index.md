@@ -6,7 +6,7 @@ weight = 23
 
 +++
 
-Diversos problemas em juízes online (e competições) costumam pedir a resposta módulo algum primo alto (bastante comum $$10^9$$ + 7). O motivo disso é evitar overflow. Por exemplo: finja que você tem o seguinte problema: 
+Diversos problemas em juízes online (e competições) costumam pedir a resposta módulo algum primo alto (bastante comum 10^9 + 7). O motivo disso é evitar overflow. Por exemplo: finja que você tem o seguinte problema: 
 
 Imprimir o resultado de 3^`x` (0 <= `x` <= 100), por exemplo. Esse resultado claramente excede 2^64 (limite de long long), então não faz muito sentido pedir o resultado por si só (na verdade, alguns problemas realmente pedem coisas do tipo, nesses casos, o recomendado é usar python, que não tem overflow). 
 

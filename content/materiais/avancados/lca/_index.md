@@ -210,7 +210,7 @@ int lca(int u, int v) {
 int climb(int node, int k){
 	for(int i = 20; i >= 0; i--) {
 		if(k >= (1 << i)) {
-			node = p2k(node,i);
+			node = p2k[node][i];
 			k -= (1 << i);
 		}
 	}

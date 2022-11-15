@@ -88,29 +88,83 @@ A complexidade do procedimento acima é `O(quantidade de fatores)`, que é limit
 
 ## Número de divisores dada uma fatoração
 
-Vimos que todo inteiro N pode ser escrito de forma única como multiplicação de números primos. Assim, N = p<sub>1</sub><sup>e<sub>1</sub></sup> p<sub>2</sub><sup>e<sub>2</sub></sup> p<sub>3</sub><sup>e<sub>3</sub></sup> p<sub>4</sub><sup>e<sub>4</sub></sup> p<sub>5</sub><sup>e<sub>5</sub></sup> p<sub>6</sub><sup>e<sub>6</sub></sup> &middot;&middot;&middot; onde p<sub>i</sub> é primo e 0 e<sub>i</sub> &gt; 0.
+Vimos que todo inteiro N pode ser escrito de forma única como multiplicação de números primos. Assim, 
 
-Todo divisor de N só pode ter primos que aparecem na fatoração de N e expoente no máximo o do expoente no N. Por exemplo, os divisores de 36 = 2<sup>2</sup>3<sup>2</sup> são
+{{< math align="center" >}}
+$$N = {p_1}^{e_1}.{p_2}^{e_2}.{p_3}^{e_3}.{p_4}^{e_4}.{p_5}^{e_5}.{p_6}^{e_6} ... $$
+{{< /math >}} 
 
-1 = 2<sup>0</sup>3<sup>0</sup>
+onde p<sub>i</sub> é primo e 0 e<sub>i</sub> &gt; 0.
 
-2 = 2<sup>1</sup>3<sup>0</sup>
+Todo divisor de N só pode ter primos que aparecem na fatoração de N e expoente no máximo o do expoente no N. Por exemplo:
+{{< math align="center" >}}
+$$36 = 2^2.3^2$$
+{{< /math >}} 
 
-3 = 2<sup>0</sup>3<sup>1</sup>
+{{< math align="left" >}}
+$$1 = 2^0.3^0$$
+{{< /math >}} 
 
-4 = 2<sup>2</sup>3<sup>0</sup>
+{{< math align="left" >}}
+$$2 = 2^1.3^0$$
+{{< /math >}} 
 
-6 = 2<sup>1</sup>3<sup>1</sup>
+{{< math align="left" >}}
+$$3 = 2^0.3^1$$
+{{< /math >}} 
 
-9 = 2<sup>0</sup>3<sup>2</sup>
+{{< math align="left" >}}
+$$4 = 2^2.3^0$$
+{{< /math >}} 
 
-12 = 2<sup>2</sup>3<sup>1</sup>
+{{< math align="left" >}}
+$$6 = 2^1.3^1$$
+{{< /math >}} 
 
-18 = 2<sup>1</sup>3<sup>2</sup>
+{{< math align="left" >}}
+$$9 = 2^0.3^2$$
+{{< /math >}} 
 
-36 = 2<sup>2</sup>3<sup>2</sup>
+{{< math align="left" >}}
+$$12 = 2^2.3^1$$
+{{< /math >}} 
+
+{{< math align="left" >}}
+$$18 = 2^1.3^2$$
+{{< /math >}} 
+
+{{< math align="left" >}}
+$$36 = 2^2.3^2$$
+{{< /math >}} 
 
 Para construir um divisor podemos escolher dentre (e<sub>i</sub>+1) possibilidades para o primo p<sub>i</sub>. O número total de divisores é a multiplicação desses termos. Assim 36 tem (2+1)\*(2+1) = 9 divisores.
 
-Embora esta ideia não melhore a complexidade para encontrar o número de divisores em comparação com as ideias anteriores, ela pode ser uma ferramenta útil para analisar problemas. Por exemplo, os números com exatamente 9 divisores são da forma p<sub>1</sub><sup>8</sup> ou da forma p<sub>1</sub><sup>2</sup>p<sub>2</sub><sup>2</sup> como 256 = 2<sup>8</sup>, 6561 = 3<sup>8</sup>, 36 = 2<sup>2</sup>3<sup>2</sup>, 100 = 2<sup>2</sup>5<sup>2</sup>, 255 = 3<sup>2</sup>5<sup>2</sup> etc.
+Embora esta ideia não melhore a complexidade para encontrar o número de divisores em comparação com as ideias anteriores, ela pode ser uma ferramenta útil para analisar problemas. Por exemplo, os números com exatamente 9 divisores são da forma 
 
+{{< math align="left" >}}
+$${p_1}^8={p_1}^2.{p_2}^2$$
+{{< /math >}} 
+
+Como por exemplo:
+
+{{< math align="left" >}}
+$$256 = 2^8$$
+{{< /math >}} 
+
+{{< math align="left" >}}
+$$6561 = 3^8$$
+{{< /math >}}
+
+{{< math align="left" >}}
+$$36 = 2^2.3^2$$
+{{< /math >}} 
+
+{{< math align="left" >}}
+$$100 = 2^2.5^2$$
+{{< /math >}} 
+
+{{< math align="left" >}}
+$$255 = 3^2.5^2$$
+{{< /math >}} 
+
+etc...
