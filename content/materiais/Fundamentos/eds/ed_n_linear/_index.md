@@ -1,5 +1,5 @@
 +++
-title = "Não Linear"
+title = "ED Não Linear"
 tags = ["iniciante"]
 weight = 2
 alwaysopen = false

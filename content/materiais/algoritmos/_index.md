@@ -1,4 +1,5 @@
 +++
 title = "Algoritmos"
-weight = 2
+weight = 3
+alwaysopen = false
 +++
