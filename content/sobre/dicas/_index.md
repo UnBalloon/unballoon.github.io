@@ -26,7 +26,7 @@ Após ter esse contato introdutório com a Linguagem, é importante que seja fei
 
 - A plataforma mais famosa de competitiva é o https://codeforces.com, com diversos problemas e competições semanais.
 - Tem outros sites como https://atcoder.jp (esse especificamente é bom para iniciantes pois tem problemas partindo de um nível mais básico além de ter questões mais “educativas" - com conteúdos mais estruturados, algoritmos clássicos etc)
-- O https://www.beecrowd.com.br/judge/pt/login(antigo URI) é uma bom meio para praticar também, é a maior plataforma nacional dessa área com muitos problemas interessantes.
+- O https://www.beecrowd.com.br/judge/pt/login (antigo URI) é uma bom meio para praticar também, é a maior plataforma nacional dessa área com muitos problemas interessantes.
 
 **Conteúdo**:
 - {{% button href="/tags/iniciante" style="orange" %}}UnBalloon : Iniciante{{% /button %}}
