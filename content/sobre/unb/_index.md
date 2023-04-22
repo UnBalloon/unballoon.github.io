@@ -14,7 +14,6 @@ alwaysopen = false
 - 2 anos consecutivos na final Mundial
 - Melhor resultado Brasileiro na Mundial em 2021
 - 13º Lugar na Nacional de 2022 
-- 9º e 11º Lugar na Regional de 2023
 - 6º e 9º Lugar na Nacional de 2023
 - Time classificado pro Mundial no Egito em 2023
 
