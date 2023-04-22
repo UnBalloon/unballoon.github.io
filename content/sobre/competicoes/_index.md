@@ -25,7 +25,7 @@ alwaysopen = false
 - se o competidor já participou de duas finais mundiais, ele **não é elegível**;
 - se o competidor já participou de cinco regionais, ele **não é elegível**;
 - se o competidor iniciou seus estudos universitários no ano 2017 ou antes **E** nasceu em 1998  ou antes, ele **não é elegível**;
-- aso contrário, o competidor **é elegível**.
+- caso contrário, o competidor **é elegível**.
 
 ### Onde ocorrem as provas?
 - Ao decorrer de 2023, a sede do DF será divulgada.
