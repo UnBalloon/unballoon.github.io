@@ -2,10 +2,14 @@
 title = "UnBalloon"
 +++
 
-# O Grupo de programação competitiva mais top do Centro-Oeste
+<p align=center>
+</br>:books:Undergraduating in Computer Science at UnB :school:
+</p>
 
-![Foto UnBalloon](/images/foto-geral.JPG)
+![Logo UnBalloon](/images/logo.png)
 
-## Subpáginas
 
-{{% children showhidden="true" %}}
+|||
+:-----------------------:|:-----------------------:
+|[![Sobre](/images/sobre.png?classes=shadow)](/sobre/)|[![Material](/images/material.png?classes=shadow)](/materiais/)|
+|[![Eventos](/images/eventos.png?classes=shadow)](/sobre/eventos)|[![Referencias](/images/referencias.png?classes=shadow)](/sobre/referencias)|

@@ -31,7 +31,7 @@ defaultContentLanguage = "pt"
   disableNextPrev = false
   disableLandingPageButton = false
   titleSeparator = "::"
-  themeVariant = [ "neon", "relearn-dark", "relearn-light", "learn", "blue", "green", "red" ]
+  themeVariant = ["relearn-dark", "relearn-light", "neon", "learn", "blue", "green", "red" ]
   disableSeoHiddenPages = true
   # this is for the stylesheet generator to allow for interactivity in Mermaid
   # graphs; you usually will not need it and you should remove this for
