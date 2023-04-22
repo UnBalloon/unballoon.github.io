@@ -7,7 +7,7 @@ alwaysopen = false
 
 [![RockLee](/images/rocklee.jpg)](https://noticias.unb.br/112-extensao-e-comunidade/5339-equipe-da-unb-se-destaca-em-torneio-mundial-de-programacao)
 
-> ![Equipe da UnB destaca-se em torneio mundial de programação](https://noticias.unb.br/112-extensao-e-comunidade/5339-equipe-da-unb-se-destaca-em-torneio-mundial-de-programacao)
+> [Equipe da UnB destaca-se em torneio mundial de programação](https://noticias.unb.br/112-extensao-e-comunidade/5339-equipe-da-unb-se-destaca-em-torneio-mundial-de-programacao)
 
 ## A UnB tem tido um ótimo destaque nacional na programação competitiva nos últimos anos
 
