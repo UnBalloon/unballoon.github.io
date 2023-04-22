@@ -31,7 +31,7 @@ defaultContentLanguage = "pt"
   disableNextPrev = false
   disableLandingPageButton = false
   titleSeparator = "::"
-  themeVariant = [ "relearn-dark", "relearn-light", "learn", "neon", "blue", "green", "red" ]
+  themeVariant = [ "neon", "relearn-dark", "relearn-light", "learn", "blue", "green", "red" ]
   disableSeoHiddenPages = true
   # this is for the stylesheet generator to allow for interactivity in Mermaid
   # graphs; you usually will not need it and you should remove this for
@@ -58,6 +58,17 @@ defaultContentLanguage = "pt"
   name = "<i class='fa fa-code'></i> CodeForces"
   url = "https://codeforces.com/group/nituVTsHQX"
   weight = 11
+
+  [[Languages.pt.menu.shortcuts]]
+    name = "<i class='fab fa-fw fa-telegram'></i> Telegram"
+    url = "https://t.me/unballoon"
+    weight = 12
+  
+  [[Languages.pt.menu.shortcuts]]
+    name = "<i class='fab fa-fw fa-discord'></i> Discord"
+    url = "https://discord.gg/uc4htcV7fD"
+    weight = 13
+  
 
   [[Languages.pt.menu.shortcuts]]
     name = "<i class='fas fa-fw fa-bullhorn'></i> Créditos"

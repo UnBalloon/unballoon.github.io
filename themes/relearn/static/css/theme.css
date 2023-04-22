@@ -11,7 +11,7 @@ html {
 body {
     display: flex;
     flex-direction: row-reverse; /* IE11 to allow body to have initial focus for PS and better SEO and a11y */
-    font-size: 16.25px;
+    font-size: 19.25px;
     font-weight: 300;
     height: 100%;
     justify-content: flex-end;
@@ -55,7 +55,7 @@ th {
     flex-direction: column;
     flex-grow: 0;
     flex-shrink: 0;
-    font-size: 15.25px;
+    font-size: 18.25px;
     height: 100%;
     left: 0;
     line-height: 1.574;
